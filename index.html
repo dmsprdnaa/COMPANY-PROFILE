@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel - Reservasi Hotel</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 3D Effect for Boxes */
+        .box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Specific Styling for Car Boxes */
+        .car-box img {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <a class="navbar-brand" href="#">HOTEL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Our Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Our Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="HOTEL.png" alt="Hotel Banner" class="img-fluid">
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome-section text-center py-5">
+        <h1 class="welcome-title">Welcome</h1>
+        <p></p>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- About Us Section -->
+    <div class="container about-section mt-5">
+        <h2 class="text-center">About Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">
+                    <h3>Our Mission</h3>
+                    <p>Providing an easily accessible, secure, and efficient web-based hotel reservation platform, offering a variety of hotel options to suit customer needs, equipped with a secure payment system, advanced search features, and responsive customer service, to provide a satisfying and reliable stay experience for every user.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <h3>Our Vision</h3>
+                    <p>To be a trusted, easily accessible web-based hotel reservation platform that provides a satisfying user experience by providing a variety of accommodation options that suit the needs of customers worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Car Options Section -->
+    <div class="container my-5">
+        <h2 class="text-center">Available Cars</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="box car-box">
+                    <img src="kamar1.jpg" alt="room1" class="img-fluid">
+                    <h4 class="mt-3">Suite King</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box car-box">
+                    <img src="kamar2.jpg" alt="room2" class="img-fluid">
+                    <h4 class="mt-3">Business Suite</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box car-box">
+                    <img src="kamar3.jpg" alt="room3" class="img-fluid">
+                    <h4 class="mt-3">Superior Twin</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 custom-footer mt-5">
+        &copy; 2024 Hotel. All rights reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
